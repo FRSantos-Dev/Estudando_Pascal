@@ -1,9 +1,17 @@
 Program Aula1;
 
-var Nome: string;
+var Nome  : string;
+    idade : integer;
 begin
     writeln('Digite o seu nome e tecle enter');
-    read(nOme);
-    write('o seu nome é ');
-    write(nOme);
+    readln(Nome);
+
+    writeln('Digite a sua idade e tecle enter');
+    readln(idade);
+
+    write(Nome);
+    write(' tem ');
+    write(idade);
+    writeln(' anos');
+
 end;
