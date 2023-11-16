@@ -5,13 +5,25 @@ var numeroInteiro : integer;
     numeroReal    : real;
 
 Begin
-    numeroInteiro := 10;
-    Texto         := 'Aula 2';
-    numeroReal    := 10.5;
-    
-    writeln('O valor da variavel numeroInteiro é: ', numeroInteiro);
-    writeln('O valor da variavel Texto é: ', Texto);
-    writeln('O valor da variavel numeroReal é: ', numeroReal:0:2);
+    textcolor(blue;)
+    numeroInteiro := 999999999;
+    Writeln('A variavel numeroInteiro vale: ', nummeroInteiro);
+    readln;
+    textcolor(green);
+    numeroReal := 100.200001;
+    Writeln('A variavel numeroReal vale: ', numeroReal:0:2);
+    readln;
+    textcolor(red);
+    numeroReal := 100.20001;
+    Writeln('A variavel numeroReal vale: ', numeroReal:0:2);
+    readln;
+    textcolor(yellow);
+    numeroReal := 100.2001;
+    Writeln('A variavel numeroReal vale: ', numeroReal:0:2);
+    readln;
+    textcolor(white);
+    numeroReal := 100.201;
+    Writeln('A variavel numeroReal vale: ', numeroReal:0:2);
     readln;
 
 End.
