@@ -5,22 +5,27 @@ var numeroInteiro : integer;
     numeroReal    : real;
 
 Begin
+    textbackground(white);
     textcolor(blue;)
     numeroInteiro := 999999999;
     Writeln('A variavel numeroInteiro vale: ', nummeroInteiro);
     readln;
+    textbackground(blue);
     textcolor(green);
     numeroReal := 100.200001;
     Writeln('A variavel numeroReal vale: ', numeroReal:0:2);
     readln;
+    textbackground(green);
     textcolor(red);
     numeroReal := 100.20001;
     Writeln('A variavel numeroReal vale: ', numeroReal:0:2);
     readln;
+    textbackground(red);
     textcolor(yellow);
     numeroReal := 100.2001;
     Writeln('A variavel numeroReal vale: ', numeroReal:0:2);
     readln;
+    textbackground(yellow);
     textcolor(white);
     numeroReal := 100.201;
     Writeln('A variavel numeroReal vale: ', numeroReal:0:2);
