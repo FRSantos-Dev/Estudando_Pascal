@@ -9,6 +9,13 @@ Begin
         textcolor(i);
         end;
 
+        while (i>0) do
+        begin
+            writeln(i, ' - ');
+            textcolor(i);
+            i := i - 1;
+        end;
+
 
 
 
