@@ -12,15 +12,15 @@ Begin
     write('Digite a nota do aluno: ');
     read(nota);
 
-    if nota >= 50 then
+    if ((Nome = 'Bruno') and (Materia = 'Carros')) then
     begin
-        textcolor(green);
-        writeln('O aluno ',nome,' foi aprovado em ',Materia,' com a nota ',nota);
+        textcolor(lightblue);
+        writeln('O Aluno', nome, 'Passou na Materia de ', Materia);
     end
     else
     begin
-        textcolor(red);
-        writeln('O aluno ',nome,' foi reprovado em ',Materia,' com a nota ',nota);
+        textcolor(lightred);
+        writeln('O Aluno', nome, 'Não Passou na Materia de ', Materia);
     end;
 
 
