@@ -1,0 +1,22 @@
+Program Pzim;
+
+var nota: integer;
+    nome: string;
+    Materia: string;
+
+Begin
+    write('Digite o nome da Matéria: ');
+    read(Materia);
+    write('Digite o nome do aluno: ');
+    read(nome);
+    write('Digite a nota do aluno: ');
+    read(nota);
+
+    if nota >= 50 then
+    begin
+        textcolor(green);
+        writeln('O aluno ',nome,' foi aprovado em ',Materia,' com a nota ',nota);
+    end;
+
+
+End.
