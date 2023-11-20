@@ -16,6 +16,11 @@ Begin
     begin
         textcolor(green);
         writeln('O aluno ',nome,' foi aprovado em ',Materia,' com a nota ',nota);
+    end
+    else
+    begin
+        textcolor(red);
+        writeln('O aluno ',nome,' foi reprovado em ',Materia,' com a nota ',nota);
     end;
 
 
