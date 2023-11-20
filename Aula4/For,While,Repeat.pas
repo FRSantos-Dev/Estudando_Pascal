@@ -2,12 +2,15 @@ Program Pzim;
 
 Begin
 Nomes := '';
-for i := 0 to 5 do
-begin
-    Write('Digite o nome: ');
+i := 0;
+repeat
+    clrscr;
+    i := i + 1;
+    Writeln('Digite o ',i,'º nome: ');
     Readln(NomeAtual);
     Nomes := Nomes + NomeAtual + ' ';
-end;
+    
+until (NomeAtual = 'FIM');
 Writeln('Os nomes Digitados foram: ',Nomes);
 Writeln('---------------------------------');
 
