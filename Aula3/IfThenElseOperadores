@@ -12,7 +12,7 @@ Begin
     write('Digite a nota do aluno: ');
     read(nota);
 
-    if ((Nome = 'Bruno') and (Materia = 'Carros')) then
+    if ((Nome = 'Bruno') or (Materia = 'Carros')) then
     begin
         textcolor(lightblue);
         writeln('O Aluno', nome, 'Passou na Materia de ', Materia);
